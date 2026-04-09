@@ -8,7 +8,6 @@ class Produto {
         this.nome = nome;
         this.preco = preco;
 
-        // impede começar com estoque negativo
         if (estoque >= 0) {
             this.estoque = estoque;
         } else {
